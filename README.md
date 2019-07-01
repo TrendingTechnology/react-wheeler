@@ -1,5 +1,7 @@
 # React-Wheeler by Adrian
 
+![logo](./assets/logo.png)
+
 [![Version][version-badge]][github]
 [![Repository size][repo-size-badge]][github]
 [![Number of GitHub issues][gh-issues-badge]][github]
