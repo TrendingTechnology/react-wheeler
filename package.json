@@ -7,9 +7,9 @@
     "wheel",
     "touch"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
-  "repository": "https://designbyadrian@github.com/designbyadrian/wheeler.git",
+  "repository": "https://designbyadrian@github.com/designbyadrian/react-wheeler.git",
   "author": "Adrian von Gegerfelt <adrian@designbyadrian.com>",
   "license": "MIT",
   "files": [
