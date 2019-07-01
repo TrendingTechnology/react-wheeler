@@ -1,0 +1,36 @@
+{
+  "name": "react-wheeler",
+  "description": "React component for listening to and acting on scroll/wheel/touchmove events.",
+  "keywords": [
+    "react",
+    "scroll",
+    "wheel",
+    "touch"
+  ],
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://designbyadrian@github.com/designbyadrian/wheeler.git",
+  "author": "Adrian von Gegerfelt <adrian@designbyadrian.com>",
+  "license": "MIT",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel ./src --watch --out-dir ./dist",
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0"
+  },
+  "peerDependencies": {
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0"
+  }
+}
